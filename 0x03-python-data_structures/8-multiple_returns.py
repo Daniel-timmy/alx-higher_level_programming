@@ -6,5 +6,4 @@ def multiple_returns(sentence):
         tuplen = (n, None)
     else:
         tuplen = (n, sentence[0])
-    
     return (tuplen)
