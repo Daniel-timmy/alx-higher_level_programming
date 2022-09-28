@@ -9,7 +9,6 @@ def weight_average(my_list=[]):
     sum_s = 0
     for (a, b) in zip(score, weight):
         sum_s += (a * b)
-    for i in weight:
-        sum_w += i
+        sum_w += b
 
     return (sum_s/sum_w)
