@@ -5,6 +5,7 @@
 
 class Rectangle:
     """An empty class representing rectangle"""
+
     def __init__(self, width=0, height=0):
         """ Method that initializes a rectangle instance
 

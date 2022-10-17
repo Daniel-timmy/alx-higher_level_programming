@@ -5,13 +5,12 @@
 
 class Rectangle:
     """An empty class representing rectangle"""
+
     def __init__(self, width=0, height=0):
         """ Method that initializes a rectangle instance
-
         Args:
             width: width of the rectangle
             height: height of the rectangle
-
         Raises:
             TypeError: if size is not integer
             ValueError: if size is less than zero
@@ -30,7 +29,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """ Returns thewidth """
+        """ Returns the width """
         return self.__width
 
     @height.setter
