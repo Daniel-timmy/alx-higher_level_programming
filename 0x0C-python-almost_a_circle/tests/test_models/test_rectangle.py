@@ -197,15 +197,3 @@ class TestRectangleMethods(unittest.TestCase):
         """ Test load JSON file """
         load_file = Rectangle.load_from_file()
         self.assertEqual(load_file, [])
-
-    def test_load_from_file_2(self):
-        """ Test load JSON file """
-        r1 = Rectangle(5, 5)
-        r2 = Rectangle(8, 2, 5, 5)
-
-        linput = [r1, r2]
-        Rectangle.save_to_file(linput)
-        loutput = Rectangle.load_from_file()
-
-        for i in range(len(linput)):
-            self.assertEqual(linput[i].__str__(), loutput[i].__str__()
