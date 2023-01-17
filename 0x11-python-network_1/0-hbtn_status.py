@@ -4,3 +4,4 @@ import urllib.request
 
 with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
     page_reply = response.read()
+
